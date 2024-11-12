@@ -1,0 +1,5 @@
+.ruff_cache
+venv
+*.pyc
+.vscode
+.idea
