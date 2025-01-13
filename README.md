@@ -9,7 +9,7 @@ pip install -r requirements.txt
 # To consume this template
 
 ```bash
-pip install cookicutter
+pip install cookiecutter
 cookiecutter https://github.com/JhonRobert20/django-template
 # later use cd on the folder created
 ```
