@@ -49,7 +49,7 @@ Create a new superuser:
 $ docker-compose run web python manage.py createsuperuser
 ```
 
-Link to http://localhost:8000/web/admin/ and log in!
+Link to http://localhost:8000/admin/ and log in!
 
 ## Access Adminer in the browser
 
@@ -74,7 +74,7 @@ To access the API, go to http://localhost:8000/api/docs/
 
 ## Access to django admin
 
-To access the API, go to http://localhost:8000/web/admin/
+To access the API, go to http://localhost:8000/admin/
 
 ## Populate the database
 
