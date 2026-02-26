@@ -1,4 +1,8 @@
 {
   "project_name": "root",
-  "template_name": "django_project"
+  "template_name": "django_project",
+  "database_engine": [
+    "postgresql",
+    "sqlite"
+  ]
 }

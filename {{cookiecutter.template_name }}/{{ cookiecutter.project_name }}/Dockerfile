@@ -1,6 +1,8 @@
 FROM python:3.11-bullseye AS builder
 
-ENV PYTHONUNBUFFERED=1
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=off
 WORKDIR /home/ubuntu/webs/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}
 RUN set -ex; apt-get update ; apt install -y --no-install-recommends gcc python3-dev build-essential ; pip install --upgrade pip --no-cache ;
 
